@@ -26,6 +26,10 @@ public class Restaurante{
 		this.idContas = vendas.get(vendas.size()-1).getId()+1;
 	}
 
+	public ArrayList<Funcionario> getFuncionarios(){
+		return this.funcionarios;
+	}
+
 	public Estoque getEstoque(){
 		return this.estoque;
 	}
